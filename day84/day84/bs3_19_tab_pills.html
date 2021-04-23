@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트스트랩 3.4.1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <br>
+  <div class="container">
+    <h2>Toggle Tabs</h2>
+    <br>
+
+    <!-- tab button -->
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#tab1">Tab1</a></li>
+      <li><a data-toggle="tab" href="#tab2">Tab2</a></li>
+      <li><a data-toggle="tab" href="#tab3">Tab3</a></li>
+      <li><a data-toggle="tab" href="#tab4">Tab4</a></li>
+    </ul>
+
+    <!-- 본문 부분 -->
+    <div class="tab-content">
+      <div id="tab1" class="tab-pane fade in active">
+        <h3>TAB1</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="tab2" class="tab-pane fade">
+        <h3>TAB2</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="tab3" class="tab-pane fade">
+        <h3>TAB3</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="tab4" class="tab-pane fade">
+        <h3>TAB4</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+    </div>
+    <hr><br>
+
+    <h2>Toggle Tabs</h2>
+    <br>
+
+    <!-- pill button -->
+    <ul class="nav nav-pills">
+      <li class="active">
+        <a data-toggle="pill" href="#pill1">Pill 1</a>
+      </li>
+      <li>
+        <a data-toggle="pill" href="#pill2">Pill 2</a>
+      </li>
+      <li>
+        <a data-toggle="pill" href="#pill3">Pill 3</a>
+      </li>
+      <li>
+        <a data-toggle="pill" href="#pill4">Pill 4</a>
+      </li>
+    </ul>
+
+    <!-- 본문 부분 -->
+    <div class="tab-content">
+      <div id="pill1" class="tab-pane fade in active">
+        <h3>Pill 1</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="pill2" class="tab-pane fade">
+        <h3>Pill 2</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="pill3" class="tab-pane fade">
+        <h3>Pill 3</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+      <div id="pill4" class="tab-pane fade">
+        <h3>Pill 4</h3>
+        <p>Cillum aliquip pariatur sint ullamco ea culpa eu cillum dolore pariatur.</p>
+      </div>
+    </div>
+    <hr><br>
+
+    <h2>Pills DropDown</h2>
+    <ul class="nav nav-pills nav-stacked">
+      <li class="active"><a href="#">Programming</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" 
+        href="#">JAVA <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Class</a></li>
+          <li><a href="#">Thread</a></li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </li>
+      <li><a href="#">SPRING</a></li>
+      <li><a href="#">BOOTSTRAP</a></li>
+    </ul>
+
+  </div>
+</body>
+
+</html>

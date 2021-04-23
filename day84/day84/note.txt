@@ -1,0 +1,188 @@
+
+ -- button 주요 클래스 --
+
+  btn : button 에 bootstrap 클래스를 적용함
+
+  -- button 색상 --
+
+  
+  btn-primary, btn-secondary, 
+  btn-info, btn-warning, 
+  btn-danger, 
+  btn-dark(BS4), btn-light(BS4),
+  btn-link,  btn-default(BS3)
+
+
+  -- a 태그, input 태그 --
+
+   a 태그와 input 태그에도 적용할 수 있음
+
+
+  -- 외곽선 button --
+
+   btn-outline-__???__   
+
+
+  -- button size -- 
+
+   btn-lg, btn-sm : BS4
+   btn-lg, btn-md, btn-sm, btn-xs : BS3
+
+   btn-block : button 이 배치된 영역 내에서 채워줌
+
+   active : 마우스 올렸을 때 강조된 색상으로 유지됨
+   disabled : button 비활성화하기
+
+
+   -- button group --
+
+    button 들을 하나의 group 을 묶음
+
+    btn-group : button 들을 하나의 group 을 묶음
+    btn-group-lg, btn-group-sm, btn-group-xs (BS3)
+      : button group 의 크기
+    btn-group-vertical
+      : button 들을 세로 방향으로 묶어줌  
+    
+    btn-group-justified (BS3)
+      : button 들을 한 block으로 묶어줌   
+
+
+  -- Badge Label --
+
+   문장이나 button 내부에 알림숫자나
+   간단한 단어 등을 강조할 때 사용함
+
+   BS3 : Badge 와 Label 이 구분되어있음
+   BS4 : Badge 와 Label 이 통합됨
+
+
+   -- Badge Label 주요 클래스 --
+   
+    badge : span 태그를 badge 요소로 만들어줌
+
+    badge-색상(BS4) : badge 색상 설정
+    badge-pill(BS4) : 모서리를 둥글게 함
+
+    label(BS3) : span 태그를 label 요소로 만듬
+    label-색상(BS3) : label 색상 설정
+
+
+  -- Progress Bar --
+
+   작업의 진행 상태를 표시해 줌    
+
+   progress : div 태그를 progress bar 로 만듬
+   progress-bar : progress 내부진행정도
+   progress-bar-striped : 빗살무늬
+   progress-bar-animated(BS4)
+     : animation 효과
+   active(BS3) :  animation 효과+ 
+
+  
+  -- Pagination --
+
+   게시판을 작성할 때
+   밑 부분에 배치되는 페이지 네비게이션 바
+
+
+   -- 주요 클래스 --
+
+    pagination : pagination 요소 만들기
+    page-item (BS4) : 내부 항목
+    active : 현재 선택된 페이지
+    disabled : 선택 비활성
+    pagination-크기 : 크기 설정
+    justify-content-center (BS4) : 중앙정렬
+    justify-content-end (BS4) : 오른쪽 정렬
+
+    breadcrumb : 현재 페이지 위치 표시
+
+
+  -- ListGroup --
+
+   항목을 세로 방향으로 나열함
+
+   list-group : ul 태그를 listgroup으로 만듬
+   list-group-item : li 태그를 list group 항목으로 만듬
+   list-group-flush (BS4)
+     : 외곽선이 없는 listgroup으로 만듬
+   list-group-item-색상
+     : li 태그에 색상을 설정함   
+
+
+  -- Panel (BS3) --
+
+   영역을 외곽선으로 설정하고 내부에 HTML 코드를
+   제한없이 작성할 수 있는 UI 요소로
+
+   BS4 에서는 Card 라고 이름을 변경함       
+
+   panel : div를 panel로 만듬
+   panel-heading : 제목
+   panel-body    : 본문
+   panel-footer  : footer
+   panel-group   : 여러 panel를 그룹으로 묶음
+   panel-색상    : panel 색상 설정
+
+
+  -- Card (BS4) --
+
+   영역을 외곽선으로 설정하고 내부에 HTML 코드를
+   제한없이 작성할 수 있는 UI 요소로
+
+   BS3 의  panel 을 BS4 에서 card 라고 이름을 변경함    
+
+   card : div 태그를 card 요소로 만듬
+   card-header : 헤더
+   card-body : 본문
+   card-footer : footer
+   card-title :제목
+   card-text : 본문 내용
+   card-link : link
+   card-img-top : 윗 부분 이미지
+   card-img-bottom : 아랫 부분 이미지
+   card-img-overlay : card에 배치된 이미지에 overlay 설정
+
+   card columns :  card 를 column 별로 구분해서 사용함 
+
+   card deck : 
+
+
+  -- DropDown --   
+
+   DropDown 메뉴를 만듬
+
+   BS3 - ul 태그 사용
+   BS4 -  a 태그 사용
+
+   dropdown : dropdown 으로 만듬
+   dropdown-menu : dropdown 메뉴로 됨
+   dropdown-item : dropdown 메뉴 항목으로 됨
+   dropdown-divider : 구분자를 만들어줌
+   dropdown-header : dropdown 제목을 만듬
+
+   
+   -- Collapse --
+
+   div 태그 영역을 접었다 폈다 할 수 있음
+
+
+   -- Tab, Pills --
+
+    HTML 영역을 탭형식으로 보여줌
+
+    nav-tabs : tab 을 만들어줌
+    nav-pills : pills 를 만들어줌
+    tab-content : tab 을 통해서 보여줄 본문 부분
+
+
+  -- Navi Bar --
+
+   화면 윗쪽에 배치해서 메뉴 같은 것들을 표시함
+
+   navbar : div 태그를 navbar 로 만들어줌
+   fixed-* : navbar 를 고정시킴
+
+   navbar-Collapse  : 접었다 폈다 할 수 있는
+                      navbar
