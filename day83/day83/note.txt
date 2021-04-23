@@ -1,0 +1,251 @@
+
+ -- Bootstrap FrameWork --
+   트위터에서 시작된 jQuery 기반의
+   HTML5Web FrameWork.
+   다양한 UI 요소들을 제공함
+
+
+ -- 02 Grid -- 
+
+  bootstrap 에서는 가로 한 줄을 12 등분해서
+  요소 하나의 비율을 정해 배치할 수 있음
+  
+  span1
+  span4
+  span4 span8
+  span6 span6
+  span12
+
+  -- 기본 양식 --
+  
+  col-scale-숫자 : 12 칸 중 몇 칸을 차지할지 설정
+
+  col-숫자 : 세로 방향으로 배치되지 않음 (3 X)
+  0자 : 576px 이하에서 세로로 배치됨
+  col-md-숫자 : 768px 이하에서 세로로 배치됨
+  col-lg-숫자 : 992px 이하에서 세로로 배치됨
+  col-xl-숫자 : 1200px 이하에서 세로로 배치됨 (3 X)
+
+
+  -- 03 문자열 (클래스) --
+ 
+                 BS4             BS3
+    
+   글자크기      16xp            14px   
+
+   줄 간격       1.5             1.428
+
+    폰트      Helvetica Neue 
+                Helvetica      브라우저 기본폰트0
+                  Arial 
+               Sans-serif   
+   
+              <h1>40px</h1>         <h1>36px</h1>
+              <h2>32px</h2>         <h2>30px</h2>
+              <h3>28px</h3>         <h3>24px</h3>
+              <h4>24px</h4>         <h4>18px</h4>
+              <h5>20px</h5>         <h5>14px</h5>
+              <h6>16px</h6>         <h6>12px</h6>
+
+
+  -- 문자열 관련 Tags --
+
+   abbr : 약어
+   blockquote : 인용구
+   dl, dt, dd : 항목표시
+   code : 프로그램 code 표시
+   kbd : 키보드 단축키
+   pre : 작성한 내용 그대로 출력
+
+
+   -- BS 4 에서만 사용 가능 --
+
+     class="dispaly-1" ~ "display-4"
+
+
+   -- 문자열 관련 CSS class --
+
+     font-weight-bold : 문자열을 굴게 (BS4)
+     font-italic : 문자열을 기울어지게 (BS4)
+     font-weight-light : 문자열을 가늘게 (BS4)
+     font-weight-nomal : 문자열 기본 굵기 (BS4)
+     text-left : 왼쪽 정렬
+     text-center : 중앙 정렬
+     text-right : 오른쪽 정렬
+
+    <p class="text-sm-center">sm 중앙정렬</p> (BS4)
+    <p class="text-md-center">md 중앙정렬</p> (BS4)
+    <p class="text-lg-center">lg 중앙정렬</p> (BS4)
+    <p class="text-xl-center">xl 중앙정렬</p> (BS4)
+
+
+    text-justify : 영역 안에서 문자열을 좌우에 맞춤
+    text-monospace : monosapce 글자로 표시함 (BS4)
+    text-nowrap : 문자열이 영역을 벗어나도 줄바꿈 안 됨
+    text-lowercase : 문자열을 소문자로
+    text-uppercase : 문자열을 대문자로
+    text-capitalize : 첫 글자가 소문자인 경우 첫 글자만 대문자로
+    list-unstyled : ul 이나 ol 태그를 사용하는 경우
+                    스타일을 제거함
+    list-inline :  ul 이나 ol 태그의 항목을
+                   가로방향으로 배치함           
+
+    dl-horizontal : dl 태그 내부 항목들을
+                    가로 방향으로 배치함 (BS3)
+
+    pre-scrollable : pre 태그에서 스크롤이 되지 않는
+                     상황에서도 스크롤바 영역을 표시해줌
+
+  
+  
+  -- 색상 클래스 --
+
+
+
+  -- 테이블 클래스 --
+
+  table : table 기본 class
+  table-striped : td 태그 부분이 흰색과 회색으로
+                  번갈아가면서 표시됨
+  table-bordered : 외곽선 표시됨
+  table-hover : 행(row)에 마우스를 올리면 색상변경
+  table-dark  : 테이블의 배경색이 검정색으로 됨 (BS4)
+  table-borderless : 모든 선이 사라짐 (BS4)
+  table-condensed  : 행(row)의 높이가 줄어듬 (BS3)
+  table-sm : 행(row)의 높이가 줄어듬 (BS4)
+
+
+  -- 행(row) 의 색상 설정 --
+
+  table-primary (BS4)
+  table-success 
+  table-danger 
+  table-info 
+  table-warning 
+  table-active
+
+  table-secondary (BS4)
+  table-light (BS4)
+  table-dark (BS4)
+
+  default (BS3)
+  
+
+  -- 헤더 색상 클래스 --
+
+   thead-dark (BS4)
+   thead-light (BS4)
+
+
+  -- 반응형 테이블 클래스 --
+
+   table-responsive : 768px 이하에서 좌우 스크롤바가 생김
+   table-responsive-sm (BS4) : 576px 이하에서 좌우 스크롤바가 생김
+   table-responsive-md (BS4) : 768px 이하에서 좌우 스크롤바가 생김
+   table-responsive-lg (BS4) : 992px 이하에서 좌우 스크롤바가 생김
+   table-responsive-xl (BS4) : 1200px 이하에서 좌우 스크롤바가 생김
+                         
+
+  -- 이미지 클래스 --
+
+   rounded (BS4), img-rounded (BS3)
+    : 이미지의 모서리를 둥글게 함
+
+   rounded-circle (BS4), img-circle (BS3)
+    : 이미지를 둥글게 함
+
+   img-thumbnail
+    : 썸네일 이미지를 사용하기 위해서
+      미리 정의된 디자인을 적용함
+      browser 가로 폭에 따라서 축소됨
+
+   float-left, float-right (BS4) 
+    : 이미지를 왼쪽, 오른쪽으로 정렬함
+
+   mx-auto d-block (BS4)
+    ㄴ marginauto  ㄴ display-block
+    : 이미지를 중앙에 정렬함
+
+   img-fluid (BS4)
+    : browser 가로 폭에 따라서 축소됨
+
+   img-responsive (BS3)
+    : browser 가로 폭에 따라서 축소됨
+
+    
+  -- Jumbotron --      
+
+   사각의 영역 안에
+   HTML 을 꾸밀 수 있도록 제공됨
+
+    -- jumbotron 클래스 --
+     jumbotron 
+      : 지정된 영역을 
+        jumbotron 으로 만들어줌
+     jumbotron-fluid (BS4)   
+      : BS4 에서는 모서리가 각지게 됨
+
+
+  -- well --
+   모서리가 둥근 영역을 설정하는 속성 (BS3)
+
+   well : 해당 영역을 well 로 설정함
+   well-sm : 작은 크기의 well
+   well-lg : 큰 크기의 well
+
+
+  -- alert --
+   경고창을 표시함
+
+  -- alert 의 주요 속성 --
+   alert : 주어진 영역을  Alert 로 만듬
+   alert-success
+   alert-info
+   alert-warning
+   alert-danger
+   alert-primary (BS4)
+   alert-secondary (BS4)
+   alert-light (BS4)
+   alert-dark (BS4)
+   alert-link 
+     : alert 속의 a 태그에 설정함
+       <strong> 태그의 설정과 같은 색상, 굵기로 설정됨
+
+
+  -- alert 닫기 --
+
+  Alert 에 닫기 기능을 설정해서
+  Alert 를 제거할 수 있음   
+    alert-dismissible
+
+
+  -- alert script --
+
+  .alert("close")  <-- 지정된 alert 를 닫아줌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
