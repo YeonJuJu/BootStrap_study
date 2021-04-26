@@ -1,0 +1,75 @@
+  -- Form --
+
+   HTML 에서 사용자 입력을 받아 
+   서버로 전달하기 위해서 사용함
+
+   form-group : label 태그와 input 태그를 
+                하나의 그룹으로 묶어서 관리함
+
+
+  -- input --
+
+   form-control : input 요소에 bootstrap css 적용
+
+
+  -- input group --
+
+   input 태그와 다른 요소를 하나의 그룹으로 묶어줌
+
+   input-group : 내부의 input 요소와 다른 요소를 
+                 하나의 그룹으로 묶어줌
+
+
+  -- custom input --
+
+   browser 가 달라도 모양이 일정하게 나오도록 함
+
+   custom-checkbox
+   custom-radio
+   custom-select
+   custom-range
+   custom-file-input
+
+
+  -- Modal 창 --
+
+   보이지 않다가 사용자에 의해 대화상자로 나타나는 영역
+
+   modal : 지정된 영역을 modal 요소로 만듬
+   modal-content : Modal 내부 영역 지정
+   modal-header  : Modal 제목 부분
+   modal-body    : Modal 내용 부분
+   modal-footer  : Modal 의 fotter 부분
+
+
+
+  -- tool tip --
+
+    bootstrap 클래스는 없음
+    jQuery 로 만들어줌
+
+
+  -- popover --
+
+    풍선도움말 띄우기
+
+    
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+   
+

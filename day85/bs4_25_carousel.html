@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트스트랩 4.5.2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--
+  <style>
+    .carousel-inner img{
+      width: 100%;
+      height:100%;
+    }
+  </style>
+  -->
+</head>
+<body>
+  <div class="container">
+    <div id="landscape" class="carousel slide" data-ride="carousel" data-interval="4200">
+
+      <!-- indicator -->
+      <ul class="carousel-indicators">
+        <li data-target="#landscape" data-slide-to="0" class="active"></li>
+        <li data-target="#landscape" data-slide-to="1" ></li>
+        <li data-target="#landscape" data-slide-to="2" ></li>
+        <li data-target="#landscape" data-slide-to="3" ></li>
+        <li data-target="#landscape" data-slide-to="4" ></li>
+      </ul>
+
+      <!-- image -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/waterandmountains01.jpg" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>풍경 사진</h3>
+            <p>풍경 사진들입니다</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/waterandmountains02.jpg" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="image/waterandmountains03.jpg" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="image/waterandmountains04.jpg" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="image/waterandmountains05.jpg" width="1100" height="500">
+        </div>
+      </div>
+
+      <!-- move button -->
+      <a class="carousel-control-prev" href="#landscape" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#landscape" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

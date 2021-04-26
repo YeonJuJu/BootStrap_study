@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트스트랩 4.5.2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container" style="margin-top:50px;">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="card shadow">
+          <div class="card-body">
+            <form action="#" method="post">
+              <div class="form-group row">
+                <label class="col-sm-2 text-sm-right">취 미</label>
+                <div class="col-sm-8">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="hobby" value="climbing" >등 산
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="hobby" value="reading" >독 서
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="hobby" value="swimming" >수 영
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="form-group row">
+                <label class="col-sm-2 text-sm-right">취 미</label>
+                <div class="col-sm-8">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="custom1" name="hobby" value="climbing" >
+                    <label class="custom-control-label" for="custom1">등 산</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="custom2" name="hobby" value="reading" >
+                    <label class="custom-control-label" for="custom2">독 서</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="custom3" name="hobby" value="swimming" >
+                    <label class="custom-control-label" for="custom3">수 영</label>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+              <div class="form-group row">
+                <label class="col-sm-2 text-sm-right">취 미</label>
+                <div class="col-sm-8">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="hobby" value="climbing" checked>등 산
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="hobby" value="reading" >독 서
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="hobby" value="swimming" >수 영
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              
+              <div class="form-group row">
+                <label class="col-sm-2 text-sm-right">취 미</label>
+                <div class="col-sm-8">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="custom_radio1" name="hobby2" value="climbing" checked>
+                    <label class="custom-control-label" for="custom_radio1">등 산</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="custom_radiop2" name="hobby2" value="reading" >
+                    <label class="custom-control-label" for="custom_radio2">독 서</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="custom_radio3" name="hobby2" value="swimming" >
+                    <label class="custom-control-label" for="custom_radio3">수 영</label>                  
+                  </div>
+                </div>
+              </div>
+              
+              <hr>
+
+              <div class="form-group row">
+                <label for="dept" class="col-sm-2 text-sm-right">근무부서</label>
+                <div class="col-sm-8">
+                  <select id="dept" class="form-control">
+                    <option value="sales">영업팀</option>
+                    <option value="hrd">인사팀</option>
+                    <option value="operation">운영팀</option>
+                    <option value="production">생산팀</option>
+                    <option value="executive">관리팀</option>
+                  </select>
+                </div>
+              </div>
+              <hr>
+
+              <div class="form-group row">
+                <label for="dept2" class="col-sm-2 text-sm-right">근무부서</label>
+                <div class="col-sm-8">
+                  <select id="dept2" class="custom-select">
+                    <option value="sales">영업팀</option>
+                    <option value="hrd">인사팀</option>
+                    <option value="operation">운영팀</option>
+                    <option value="production">생산팀</option>
+                    <option value="executive">관리팀</option>
+                  </select>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+</body>
+</html>

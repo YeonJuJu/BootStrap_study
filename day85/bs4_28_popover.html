@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부트스트랩 4.5.2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    /* $(document).ready(function(){ }*/
+    $(function(){
+      $("#pop1,#pop2,#pop3,#pop4,#pop5,#pop6,#pop7").popover();
+    });
+    function showAll(){
+      $("#pop1,#pop2,#pop3,#pop4,#pop5,#pop6,#pop7").popover("show");
+    }
+    function hideAll(){
+      $("#pop1,#pop2,#pop3,#pop4,#pop5,#pop6,#pop7").popover("hide");
+    }
+    function showToggle(){
+      $("#pop1,#pop2,#pop3,#pop4,#pop5,#pop6,#pop7").popover("toggle");
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>PopOver</h1>
+    <a id="pop1" href="#" data-toggle="popover" title="풍선도움말 제목" data-content="풍선도움말 내용 부분">
+      풍선도움말 기본
+    </a>
+    <hr>
+    <a id="pop2" href="#" data-toggle="popover" title="풍선도움말 윗쪽" data-content="풍선도움말 내용 부분" data-placement="top">
+      풍선도움말 윗쪽
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="pop3" href="#" data-toggle="popover" title="풍선도움말 아랫쪽" data-content="풍선도움말 내용 부분" data-placement="bottom">
+      풍선도움말 아랫쪽
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="pop4" href="#" data-toggle="popover" title="풍선도움말 오른쪽" data-content="풍선도움말 내용 부분" data-placement="right">
+      풍선도움말 오른쪽
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="pop5" href="#" data-toggle="popover" title="풍선도움말 왼쪽" data-content="풍선도움말 내용 부분" data-placement="left">
+      풍선도움말 왼쪽
+    </a>
+    <hr>
+
+    <!--
+      data-trigger="focus"  : 해당 요소에 focus가 있으면 
+                              풍선도움말이 나타나고
+                              focus가 없으면 사라짐
+    -->
+    <a id="pop6" href="#" data-toggle="popover" title="풍선도움말" data-content="다른 곳을 클릭하면 사라짐" data-trigger="focus">
+      다른 곳 클릭하면 사라짐
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a id="pop7" href="#" data-toggle="popover" title="풍선도움말" data-content="마우스를 올리면 나타나고 내리면 사라짐" data-trigger="hover">
+      마우스를 올리면 나타나고 내리면 사라짐
+    </a>
+    <hr>
+
+    <button type="button" class="btn btn-primary" onClick="showAll();">모두 보기</button>
+    <button type="button" class="btn btn-success" onClick="hideAll();">모두 사라지게 하기</button>
+    <button type="button" class="btn btn-danger"  onClick="showToggle();">반전시키기</button>
+  </div>
+</body>
+</html>
